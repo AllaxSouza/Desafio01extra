@@ -1,14 +1,14 @@
 *{
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #828282;
-
 }
 
 #main {
@@ -51,10 +51,9 @@ h1 span{
 
 }
 
-#footer {
-   
+#footer a {
+    color: #3F3D56;
     font-size: 15px;
-    line-height: 147.68px;
     margin-bottom: 40.83px;
     font-weight: bold;
     text-decoration: none;
@@ -77,5 +76,6 @@ h1 span{
 #wave {
     width: 100%;
     bottom: 0px;
-      
+    position: fixed; 
+    left: 0;
 }
